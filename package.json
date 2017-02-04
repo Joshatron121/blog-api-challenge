@@ -1,0 +1,24 @@
+{
+  "name": "blog-api-challenge",
+  "version": "0.0.1",
+  "description": "Thinkful Blog Application Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Joshatron121/blog-api-challenge.git"
+  },
+  "author": "Josh Eimer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshatron121/blog-api-challenge/issues"
+  },
+  "homepage": "https://github.com/Joshatron121/blog-api-challenge#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "uuid": "^3.0.1"
+  }
+}
