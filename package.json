@@ -4,7 +4,7 @@
   "description": "Thinkful Blog Application Challenge",
   "main": "server.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha ./test",
     "start": "node server.js"
   },
   "repository": {
