@@ -1,2 +1,9 @@
 language: node_js
 node_jd: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WcspkNACu8ap393Tkyp0IKQv0U78evK1328PlNXdXzxprJFyDWgQelvaQxB6YvNzjl4mMqbbCiJJikT4/4NX1LBCzw1cpb0A9bsm3CuKNpMLmGJ50gK7w4NdgifMfIogR0nNlNeYzJa7fhLKZLMrqUnesJj0Rf4z0G2Q99/pTxBF5wS3yJ0M+8rKdTAxMj8HHP5oVSTY1N/THalT+Vlm/Y5alGGGp8E3M8xuLYQG38KCAu/0D6+1AyTxrbPXPUdeR1kxD408mfOKA96rsxNTbvEy73scRkhitEFgiqjtnnLAGHLapncVejEugxp8W69/oxwuu+1DQzQmRL+U3yxzJoQMKwZ++Ev7fzn9KpxrBPYJ7ZW6atgdaOzDv8heFGPiFEu23qjak50RQHqEBVM7mBGSI+EZs9HWEuPNiklDvOnE637ejpKIT1NqZLb7TZ8YmmeOu5bkaJwDTO4qLzPAyabXKuqcrqWjZ38C2+LOFi/1H1k3gQ6if37OdUorQbwthOzvJ6j3RC7Zy/AojlEgHvBAlkc7sK/Q1HfqRyLWhRbh7OkQ9UcgtzUJY1oORUgP61DOL0UPPK/IjzfZal+oCccKl0bHHOKyHi04AKtSIdxcN/9GMXeE0TIkKQVhRVfCGnJXGw25rNu0KwF1a5dI18LB9pey6a5AwSFMo1Vgoh8=
+  app: guarded-sea-29574
+  on:
+    repo: Joshatron121/blog-api-challenge
